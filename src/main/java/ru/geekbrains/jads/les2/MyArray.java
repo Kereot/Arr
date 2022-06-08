@@ -80,12 +80,14 @@ public class MyArray {
     }
 
     boolean deleteAll() { // ЗАДАНИЕ_2
-//        for (int i = 0; i < arr.length; i++) { // arr.length чтобы удалить вообще всё
-//            this.arr[i] = 0;
-//        }
-        Arrays.fill(arr, 0);
-        capacity = arr.length; // или capacity = 0 ... какая задача?
-        return true;
+        capacity = 0;
+        return capacity;
+// //        for (int i = 0; i < arr.length; i++) { // arr.length чтобы удалить вообще всё
+// //            this.arr[i] = 0;
+// //        }
+//         Arrays.fill(arr, 0);
+//         capacity = arr.length; // или capacity = 0 ... какая задача?
+//         return true;
     }
 
     void insert(int idx, int value) { // ЗАДАНИЕ_3
